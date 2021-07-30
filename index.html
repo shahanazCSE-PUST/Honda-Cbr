@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motorcycle</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- Font aso -->
+  <script src="https://kit.fontawesome.com/b33cafbe85.js" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- All custom class names strat with "my" prefix -->
+</head>
+
+<body>
+  <header class="my-header container-fluid">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-lg-4 pt-4 pb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          HONDA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="row row-cols-sm-2 row-cols-1 g-4">
+            <div class="col">
+              <button class="btn my-btn-primary w-100">Sign&nbsp;up</button>
+            </div>
+            <div class="col">
+              <button class="btn my-btn-primary w-100">Log&nbsp;in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Banner -->
+    <div class="row row-cols-lg-2 row-cols-1 my-banner-h g-4 gy-lg-0">
+
+      <!-- Banner left part: text -->
+      <div class="d-flex justify-content-center align-items-center h-100 col my-border">
+        <div class="my-border my-w-75 my-w-lg-down">
+          <p class="text-white">The Honda CBR300R is lightweight displacement motorcycles made by Honda.</p>
+          <h1 class="text-white">Honda CBR300R</h1>
+          <p class="my-banner-text">The CBR300R was made from 2011 to 2013 for all Honda markets except Japan and
+            Malaysia, where production continued after 2013. Originally intended primarily for the Thai and Indian
+            markets, the 250R was sold worldwide, including in developed countries in Europe, North America and
+            elsewhere.</p>
+
+          <!-- Purchase button -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn my-btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Purchase
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-dialog-centered modal-xl modal-fullscreen-lg-down">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">AGGRESSIVELY EFFICIENT</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is
+                  your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town
+                  and on twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and
+                  friendly torque delivery. And the affordable cost and responsive handling makes it a terrific bike for
+                  first-time riders, and for those looking to grow their garage. There’s even a version available with
+                  our anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two color
+                  choices. Time to get riding!
+                  <hr>
+                  <h5>Customization</h5>
+                  <p>You can select your very own CBR300R form our customization section.</p>
+                  <a href="#" role="button" class="btn btn-success popover-test" title="Popover title"
+                    data-bs-content="Popover body content is set in this attribute.">Select Your CBR300R</a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn my-btn-primary">Find a Dealer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End purchase button -->
+        </div>
+      </div>
+      <!-- End banner left part: text -->
+
+      <!-- Banner right part: img -->
+      <div class="d-flex justify-content-center align-items-center h-100 col my-border">
+        <div class="my-border my-w-75">
+          <!-- <p class="text-white">Computer-controlled digital transistorized with electronic advance</p> -->
+          <img class="img-fluid" src="images/header-bike.png" alt="">
+        </div>
+      </div>
+      <!-- End banner right part: img -->
+
+    </div>
+    <!-- End banner -->
+
+  </header>
+
+  <main class="container-lg">
+
+    <!-- Fetured bikes -->
+    <section class="py-5">
+      <div class="text-center py-4 py-lg-5">
+        <h2>Fetured Bikes 2021</h2>
+        <div class="position-relative">
+          <p class="text-danger">Best bike collection</p>
+          <div class="bg-danger mx-auto rounded position-absolute top-100 start-50 translate-middle-x"
+            style="height: 2px; width: 4rem;"></div>
+        </div>
+      </div>
+      <!-- Cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- card-1 -->
+        <div class="col">
+          <div class="card border-0 my-grayscale">
+            <img src="images/feature-bike.jpg" class="card-img-top w-75 mx-auto my-3 py-4" alt="...">
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="col">
+          <div class="card border-0">
+            <img src="images/feature-bike.jpg" class="card-img-top w-75 mx-auto my-3 py-4" alt="...">
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="col">
+          <div class="card border-0 my-grayscale">
+            <img src="images/feature-bike.jpg" class="card-img-top w-75 mx-auto my-3 py-4" alt="...">
+          </div>
+        </div>
+        <!-- End cards -->
+      </div>
+    </section>
+    <!-- End fetured bikes -->
+
+    <!-- Clients says -->
+    <section class="py-5">
+      <h2 class="text-center py-4 py-lg-5">Happy <span class="my-span">Clients says</span></h2>
+      <!-- Cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- card-1 -->
+        <div class="col">
+          <div class="card">
+            <img src="images/user-1.jpg" class="card-img-top w-50 mx-auto my-3 py-4 rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-primary">Card title</h5>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h5 class="card-title">Banker</h5>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="col">
+          <div class="card">
+            <img src="images/user-2.jpeg" class="card-img-top w-50 mx-auto my-3 py-4 rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-primary">Card title</h5>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h5 class="card-title">Banker</h5>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="col">
+          <div class="card">
+            <img src="images/user-3.jpg" class="card-img-top w-50 mx-auto my-3 py-4 rounded-circle" alt="...">
+            <div class="card-body text-center">
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <h5 class="card-title text-primary">Card title</h5>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#E76F51" class="bi bi-star"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                </svg>
+              </div>
+              <h5 class="card-title">Banker</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- End cards -->
+    </section>
+    <!-- End clients says -->
+
+    <!-- Questions -->
+    <section class="py-5">
+      <h2 class="text-center py-4 py-lg-5">Frequently Asked <span class="my-span">Questions</span></h2>
+
+      <!-- FAQ and accordion -->
+      <div class="row row-cols-lg-2 row-cols-1 my-border">
+
+        <!-- Left part: img -->
+        <div class="col my-border mb-4 mb-lg-0">
+          <img class="img-fluid" src="images/faq.png" alt="">
+        </div>
+        <!-- End left part: img -->
+
+        <!-- Right part: img -->
+        <div class="accordion col my-border" id="accordionPanelsStayOpenExample">
+
+          <!-- Item-1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                <strong>What are the most important things I should know about riding a bike?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic signals, signs, and
+                laws. Get in the mindset of <code>“driving”</code> your bike—not just “riding” your bike. This will help
+                you be a more focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item-2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <strong>How can I tell if my helmet is old and I need a new one?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic signals, signs, and
+                laws. Get in the mindset of <code>“driving”</code> your bike—not just “riding” your bike. This will help
+                you be a more focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item-3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <strong>My bike has been in storage is it safe to ride?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic signals, signs, and
+                laws. Get in the mindset of <code>“driving”</code> your bike—not just “riding” your bike. This will help
+                you be a more focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item-4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <strong>What rules should I follow when riding my bike?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic signals, signs, and
+                laws. Get in the mindset of <code>“driving”</code> your bike—not just “riding” your bike. This will help
+                you be a more focused and legally compliant bike rider.
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- End right part: img -->
+
+      </div>
+    </section>
+    <!-- End questions -->
+
+    <!-- Bonus-1 -->
+
+    <section class="rounded my-back my-5 text-center text-white">
+
+      <h2 class="py-4 py-lg-5">Our <span class="my-span">Advantages</span></h2>
+
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-md-center">
+          <div class="col my-hover">
+            <i class="far fa-clock fs-2 border border-3 rounded-circle p-4 mb-3"></i>
+            <h3>Bike Rentals</h3>
+            <p>We have been renting out bicycles for almost 13 years</p>
+          </div>
+          <div class="col my-hover">
+            <i class="fas fa-tools fs-2 border border-3 rounded-circle p-4 mb-3"></i>
+            <h3>Bike Repair</h3>
+            <p>Our bicycle mechanic can repair bikes within a day</p>
+          </div>
+          <div class="col my-hover">
+            <i class="fas fa-globe fs-2 border border-3 rounded-circle p-4 mb-3"></i>
+            <h3>Guided Tours</h3>
+            <p>Tourists who want to cycle with a guide can join a daily bike ride </p>
+          </div>
+          <div class="col my-hover">
+            <i class="far fa-smile fs-2 border border-3 rounded-circle p-4 mb-3"></i>
+            <h3>Online Booking</h3>
+            <p>You can use booking form to rent a bike online</p>
+          </div>
+
+        </div>
+    </section>
+    <!-- End bonus-1 -->
+
+    <!-- Bonus-2 -->
+    <section class="py-5">
+      <div class="row mt-5 gx-5">
+        <div class="col-lg-6">
+          <div class="row mb-3">
+            <div class="col-lg-12">
+              <h2 class="mb-3 fs-1"><span class="my-span">Get</span> in Touch</h2>
+              <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can
+                also use a quick contact form below or visit our office personally. <br>
+                We would be happy to answer your questions.</p>
+            </div>
+          </div>
+
+          <div class="row gx-3 mb-3">
+            <div class="col-lg-6 form-floating mb-3">
+              <input type="email" class=" form-control" id="floatingInput" placeholder="name@example.com">
+              <label class=" ms-2" for="floatingInput">First name</label>
+            </div>
+            <div class="col-lg-6 form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label class=" ms-2" for="floatingInput">Last name</label>
+            </div>
+          </div>
+          <div class="row gx-3 mb-3">
+            <div class="col-lg-6 form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label class=" ms-2" for="floatingInput">Email address</label>
+            </div>
+            <div class="col-lg-6 form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label class=" ms-2" for="floatingInput">Phone</label>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-lg-12 col-sm-12 form-floating mb-3">
+              <input type="email" class="p-5 form-control" id="floatingInput" placeholder="name@example.com">
+              <label class=" ms-2" for="floatingInput">Message</label>
+            </div>
+          </div>
+
+          <button class="btn my-btn-primary btn-lg p-2" type="button">Send Information</button>
+        </div>
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-5 mt-5 ps-5 border-start border-5">
+          <div class="mt-5">
+            <h4>Phones</h4>
+            <i class="fas fa-phone-alt fs-6 my-bg-primary p-2 rounded-circle"></i><span>
+              1-800-1234-567, 1-800-6547-321</span>
+          </div>
+          <div class="mt-3">
+            <h4>E-mail</h4>
+            <i class="far fa-envelope fs-6 my-bg-primary p-2 rounded-circle"></i> <span>info@demolink.org</span>
+          </div>
+          <div class="mt-3">
+            <h4>Address</h4>
+            <i class="fas fa-map-marker-alt fs-6 my-bg-primary p-2 rounded-circle"></i><span>
+              2130 Fulton Street San Diego,CA 94117-1080 USA</span>
+          </div>
+          <div class="mt-3">
+            <h4>Opening Hours</h4>
+            <i class="far fa-clock fs-6 my-bg-primary p-2 rounded-circle"></i><span>
+              Mon-Fri: 8:00am–6:00pm & Sat: 10:00am–4:00pm</span>
+          </div>
+          <div class="iconbar mt-4 text-white">
+            <i class="fab fa-facebook-f my-bg-primary rounded-circle p-2 fs-3" style="width:45px;"></i>
+            <i class="fab fa-twitter my-bg-primary rounded-circle p-2 fs-3"></i>
+            <i class="fab fa-linkedin-in my-bg-primary rounded-circle fs-3 p-2"></i>
+            <i class="fab fa-google-plus-g my-bg-primary rounded-circle fs-3 p-2"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End bonus-2 -->
+  </main>
+  <footer class="mx-auto bg-dark text-white py-5">
+    <div class="my-link text-center">
+      <a class="p-3 d-inline-block text-white" href="">About</a>
+      <a class="p-3 d-inline-block text-white" href="">Features</a>
+      <a class="p-3 d-inline-block text-white" href="">Pricing</a>
+      <a class="p-3 d-inline-block text-white" href="">Careers</a>
+      <a class="p-3 d-inline-block text-white" href="">Help</a>
+      <a class="p-3 d-inline-block text-white" href="">Privacy Policy</a>
+    </div>
+    <br>
+    <p class="text-center">&reg;2020 bike. All rights reserved</p>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
